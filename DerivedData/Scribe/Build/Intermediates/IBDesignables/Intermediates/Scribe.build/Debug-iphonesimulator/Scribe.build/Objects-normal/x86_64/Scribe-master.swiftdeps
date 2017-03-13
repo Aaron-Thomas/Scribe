@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.36.2 clang-802.0.35)"
+options: "519faac97ce3074c64433d6214c72973"
+build_time: [542759985, 576260000]
+inputs:
+  "/Users/aaronthomas/Desktop/Xcode/DevSlopes/Scribe/Scribe/CircleButton.swift": [540334068, 0]
+  "/Users/aaronthomas/Desktop/Xcode/DevSlopes/Scribe/Scribe/ViewController.swift": [540423330, 0]
+  "/Users/aaronthomas/Desktop/Xcode/DevSlopes/Scribe/Scribe/AppDelegate.swift": [540250155, 0]

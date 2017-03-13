@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		401552791E77583000662DB1 /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 401552781E77583000662DB1 /* test.m4a */; };
 		40ECC4C31E510B2B00247289 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ECC4C21E510B2B00247289 /* AppDelegate.swift */; };
 		40ECC4C51E510B2B00247289 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ECC4C41E510B2B00247289 /* ViewController.swift */; };
 		40ECC4C81E510B2B00247289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40ECC4C61E510B2B00247289 /* Main.storyboard */; };
 		40ECC4CA1E510B2C00247289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40ECC4C91E510B2C00247289 /* Assets.xcassets */; };
 		40ECC4CD1E510B2C00247289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40ECC4CB1E510B2C00247289 /* LaunchScreen.storyboard */; };
+		40ECC4D81E52512100247289 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ECC4D71E52512100247289 /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		401552781E77583000662DB1 /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
 		40ECC4BF1E510B2B00247289 /* Scribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scribe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40ECC4C21E510B2B00247289 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40ECC4C41E510B2B00247289 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,8 @@
 		40ECC4C91E510B2C00247289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40ECC4CC1E510B2C00247289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40ECC4CE1E510B2C00247289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40ECC4D71E52512100247289 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		40ECC4D91E5257A600247289 /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +59,49 @@
 		40ECC4C11E510B2B00247289 /* Scribe */ = {
 			isa = PBXGroup;
 			children = (
+				40ECC4D41E5250C300247289 /* Model */,
+				40ECC4D51E5250D600247289 /* View */,
+				40ECC4D61E5250DD00247289 /* Controller */,
+				40ECC4DA1E5257D200247289 /* Resources */,
 				40ECC4C21E510B2B00247289 /* AppDelegate.swift */,
-				40ECC4C41E510B2B00247289 /* ViewController.swift */,
 				40ECC4C61E510B2B00247289 /* Main.storyboard */,
+				401552781E77583000662DB1 /* test.m4a */,
 				40ECC4C91E510B2C00247289 /* Assets.xcassets */,
 				40ECC4CB1E510B2C00247289 /* LaunchScreen.storyboard */,
 				40ECC4CE1E510B2C00247289 /* Info.plist */,
 			);
 			path = Scribe;
+			sourceTree = "<group>";
+		};
+		40ECC4D41E5250C300247289 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		40ECC4D51E5250D600247289 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40ECC4D71E52512100247289 /* CircleButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		40ECC4D61E5250DD00247289 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40ECC4C41E510B2B00247289 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		40ECC4DA1E5257D200247289 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				40ECC4D91E5257A600247289 /* test.m4a */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +136,7 @@
 				TargetAttributes = {
 					40ECC4BE1E510B2B00247289 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7D8A6696Q9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401552791E77583000662DB1 /* test.m4a in Resources */,
 				40ECC4CD1E510B2C00247289 /* LaunchScreen.storyboard in Resources */,
 				40ECC4CA1E510B2C00247289 /* Assets.xcassets in Resources */,
 				40ECC4C81E510B2B00247289 /* Main.storyboard in Resources */,
@@ -136,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40ECC4D81E52512100247289 /* CircleButton.swift in Sources */,
 				40ECC4C51E510B2B00247289 /* ViewController.swift in Sources */,
 				40ECC4C31E510B2B00247289 /* AppDelegate.swift in Sources */,
 			);
@@ -258,7 +301,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7D8A6696Q9;
 				INFOPLIST_FILE = Scribe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Scribe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,7 +315,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7D8A6696Q9;
 				INFOPLIST_FILE = Scribe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Scribe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +344,7 @@
 				40ECC4D31E510B2C00247289 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
